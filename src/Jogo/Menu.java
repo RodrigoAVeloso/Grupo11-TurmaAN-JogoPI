@@ -14,8 +14,8 @@ public class Menu {
 	public void menu() {
 		
 		String opcao = "";
-		String nome = JOptionPane.showInputDialog("INFORME SEU NOME: ");
-		JOptionPane.showMessageDialog(null, "Bem vindo: " + nome);
+		//String nome = JOptionPane.showInputDialog("INFORME SEU NOME: ");
+		//JOptionPane.showMessageDialog(null, "Bem vindo: " + nome);
 		do {
 			this.frase();
 			this.reiFigura();

@@ -9,7 +9,7 @@ public class Intro {
 	public static Scanner entrada = new Scanner(System.in);
 	public Mapa mapa;
 	public static String nPersonagem = "";
-	String nPet;
+	public static String nPet;
 	//String nHeroi;
 
 	public void intro() {
