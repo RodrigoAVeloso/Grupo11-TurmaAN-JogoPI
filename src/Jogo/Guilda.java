@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Guilda {
 	
 	public static Scanner entrada = new Scanner(System.in);
-	public boolean guildaCompleto = false;
+	public static boolean guildaCompleto = false;
 	public static int reputacao = 0;
 	String opcao = "";
 	

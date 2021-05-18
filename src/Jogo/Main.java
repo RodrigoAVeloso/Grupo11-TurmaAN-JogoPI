@@ -1,4 +1,3 @@
-
 package Jogo;
 
 public class Main {

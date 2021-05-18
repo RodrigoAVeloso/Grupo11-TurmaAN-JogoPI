@@ -35,6 +35,7 @@ public class Mapa {
 		System.out.println("\n cidade->"+repCidade+ "<- \n");
 		reputacao = repCampo + repGuilda + repCidade;
 		System.out.println("\n reputação total: ->"+ reputacao +"<- \n");
+		
 		String opcao = "";
 		do {
 		System.out.println("Escolha a área do Reino que deseja ir:\r\n");
