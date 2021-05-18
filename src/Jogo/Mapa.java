@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Mapa {
 	
 	public static Scanner entrada = new Scanner(System.in);
-	
+	public static int reputacao;
 	
 	public void mapa() {
 		
@@ -28,10 +28,13 @@ public class Mapa {
 		
 		
 		int repCampo = campo.reputacaoRetorno();
-		System.out.println("\n ->"+repCampo + "<- \n");
+		System.out.println("\n campo ->"+repCampo + "<- \n");
 		int repGuilda = guilda.reputacaoRetorno();
-		System.out.println("\n ->"+repGuilda + "<- \n");
-		
+		System.out.println("\n guilda->"+repGuilda + "<- \n");
+		int repCidade = cidade.reputacaoRetorno();
+		System.out.println("\n cidade->"+repCidade+ "<- \n");
+		reputacao = repCampo + repGuilda + repCidade;
+		System.out.println("\n reputação total: ->"+ reputacao +"<- \n");
 		String opcao = "";
 		do {
 		System.out.println("Escolha a área do Reino que deseja ir:\r\n");
@@ -55,5 +58,8 @@ public class Mapa {
 
 	} while (!opcao.equals("1") && !opcao.equals("2") && !opcao.equals("3") );
 	}
-
+	
+	public  int reputacaoRetorno() {
+		return this.reputacao;
+	}
 }
