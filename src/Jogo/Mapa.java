@@ -29,6 +29,8 @@ public class Mapa {
 		
 		int repCampo = campo.reputacaoRetorno();
 		System.out.println("\n ->"+repCampo + "<- \n");
+		int repGuilda = guilda.reputacaoRetorno();
+		System.out.println("\n ->"+repGuilda + "<- \n");
 		
 		String opcao = "";
 		do {
