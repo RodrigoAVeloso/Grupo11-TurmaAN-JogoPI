@@ -37,7 +37,7 @@ public class Intro {
 				+ "\n" + nPersonagem
 				+ " cuida dos ferimentos do pobre animal e ganha a sua confiança, logo depois ele diz:\r\n"
 				+ "- Acho que você precisa de um nome... Ah! Já sei, seu nome será...\r\n");
-		System.out.println("\r\n" + "                                |\\    /|\r\n"
+		System.out.println("\r\n" + "                                 |\\    /|\r\n"
 				+ "                              ___| \\,,/_/\r\n" + "                           ---__/ \\/    \\\r\n"
 				+ "                          __--/     (O)  \\\r\n" + "                          _ -/    (_      \\\r\n"
 				+ "                         // /       \\_ /  -\\\r\n"
