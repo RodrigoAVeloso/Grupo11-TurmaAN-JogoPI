@@ -16,7 +16,7 @@ public class Guilda {
 	public void guilda() {
 		
 		Intro intro = new Intro();
-		
+		//lima é lindo
 		Mapa mapa = new Mapa();
 		
 		if (guildaCompletoRetorno() == true) {
