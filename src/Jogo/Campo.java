@@ -37,7 +37,7 @@ public class Campo {
 
 			do {
 				
-				this.primeiraPergunta();				
+				this.primeiraPergunta();
 				
 			} while (!opcao.equals("1") && !opcao.equals("2") && !opcao.equals("3") && !opcao.equals("4"));
 
@@ -86,7 +86,7 @@ public class Campo {
 			System.out.println("3 - " + lista.get(2));
 			System.out.println("4 - " + lista.get(3));
 
-			// System.out.print("* O que você deseja fazer a respeito? *\r\n");
+			System.out.print("Opção: ");
 			opcao = entrada.next();
 			int opcaoConvert = Integer.parseInt(opcao) - 1;
 
@@ -167,7 +167,7 @@ public class Campo {
 		System.out.println("3 - " + lista.get(2));
 		System.out.println("4 - " + lista.get(3));
 
-		// System.out.print("* O que você deseja fazer a respeito? *\r\n");
+		System.out.print("Opção: ");
 		opcao = entrada.next();
 		int opcaoConvert = Integer.parseInt(opcao) - 1;
 		switch (opcao) {
@@ -243,7 +243,7 @@ public class Campo {
 		System.out.println("3 - " + lista.get(2));
 		System.out.println("4 - " + lista.get(3));
 
-		// System.out.print("* O que você deseja fazer a respeito? *\r\n");
+		System.out.print("Opção: ");
 		opcao = entrada.next();
 		int opcaoConvert = Integer.parseInt(opcao) - 1;
 		switch (opcao) {

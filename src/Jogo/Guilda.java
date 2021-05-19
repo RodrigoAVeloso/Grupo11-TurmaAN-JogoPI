@@ -64,7 +64,7 @@ public class Guilda {
 						+ "pedra filosofal, porém o plano deu errado e parte da Guilda foi destruída. Os \n"
 						+ "alquimistas então entraram num consenso e proíbiram essa prática com a pedra filosofal.\n"
 						+ "Porém, recentemente um dos alquimistas foi pego tentando concluir tal prática,\n"
-						+ "pondo em risco toda a Guilda e todo o Reino.");
+						+ "pondo em risco toda a Guilda e todo o Reino.\r\n");
 
 		System.out.print("* O que você deseja fazer a respeito? *\r\n");
 
@@ -83,7 +83,7 @@ public class Guilda {
 		System.out.println("3 - " + lista.get(2));
 		System.out.println("4 - " + lista.get(3));
 
-		// System.out.print("* O que você deseja fazer a respeito? *\r\n");
+		System.out.print("Opção: ");
 		opcao = entrada.next();
 		int opcaoConvert = Integer.parseInt(opcao) - 1;
 
@@ -160,7 +160,7 @@ public class Guilda {
 		System.out.println("3 - " + lista.get(2));
 		System.out.println("4 - " + lista.get(3));
 
-		// System.out.print("* O que você deseja fazer a respeito? *\r\n");
+		System.out.print("Opção: ");
 		opcao = entrada.next();
 		int opcaoConvert = Integer.parseInt(opcao) - 1;
 		switch (opcao) {
@@ -215,7 +215,7 @@ public class Guilda {
 	public String terceiraPergunta() {
 		
 		System.out.println("(9S - PRINCÍPIOS MORAIS E ÉTICOS) Uma parte dos alquimistas estão se rebelando e estão utilizando práticas\n"
-					+ "proibidas e antiéticas para benefício próprio e desrespeitando os Mandamentos dos Alquimistas.\n");
+					+ "proibidas e antiéticas para benefício próprio e desrespeitando os Mandamentos dos Alquimistas.\r\n");
 
 		System.out.print("* O que você deseja fazer a respeito? *\r\n");
 
@@ -233,7 +233,7 @@ public class Guilda {
 		System.out.println("3 - " + lista.get(2));
 		System.out.println("4 - " + lista.get(3));
 
-		// System.out.print("* O que você deseja fazer a respeito? *\r\n");
+		System.out.print("Opção: ");
 		opcao = entrada.next();
 		int opcaoConvert = Integer.parseInt(opcao) - 1;
 		switch (opcao) {
