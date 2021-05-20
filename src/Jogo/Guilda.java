@@ -84,7 +84,8 @@ public class Guilda {
 		System.out.println("4 - " + lista.get(3));
 
 		System.out.print("Opção: ");
-		opcao = entrada.next();
+		opcao = entrada.nextLine();
+		
 		int opcaoConvert = Integer.parseInt(opcao) - 1;
 
 		switch (opcao) {
@@ -105,7 +106,7 @@ public class Guilda {
 
 			break;
 		default:
-			System.out.println("Opção inválida!\r\n" + "Digite uma opção valida: \n");
+			System.err.println("Opção inválida!\r\n" + "Digite uma opção valida! \n");
 		}		
 		return this.opcao;		
 } 
@@ -161,7 +162,8 @@ public class Guilda {
 		System.out.println("4 - " + lista.get(3));
 
 		System.out.print("Opção: ");
-		opcao = entrada.next();
+		opcao = entrada.nextLine();
+		
 		int opcaoConvert = Integer.parseInt(opcao) - 1;
 		switch (opcao) {
 		case "1":
@@ -177,7 +179,8 @@ public class Guilda {
 			valorPegunta2(opcaoConvert, lista);	
 			break;
 		default:
-			System.out.println("Opção inválida!\r\n" + "Digite uma opção valida: \n");
+			System.err.println("Opção inválida!\r\n"
+					+ "Digite uma opção valida! \n");							
 		}
 		
 		return this.opcao;
@@ -234,7 +237,8 @@ public class Guilda {
 		System.out.println("4 - " + lista.get(3));
 
 		System.out.print("Opção: ");
-		opcao = entrada.next();
+		opcao = entrada.nextLine();
+		
 		int opcaoConvert = Integer.parseInt(opcao) - 1;
 		switch (opcao) {
 		case "1":
@@ -250,7 +254,8 @@ public class Guilda {
 			valorPergunta3(opcaoConvert, lista);
 			break;
 		default:
-			System.out.println("Opção inválida!\r\n" + "Digite uma opção valida: \n");
+			System.err.println("Opção inválida!\r\n"
+					+ "Digite uma opção valida! \n");							
 		}
 		
 		return this.opcao;

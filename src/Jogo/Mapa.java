@@ -13,6 +13,8 @@ public class Mapa {
 		Campo campo = new Campo();
 		Guilda guilda = new Guilda();
 		Cidade cidade = new Cidade();
+		//Main main = new Main();
+		//reputacao = main.reputacaoRetorno();
 		
 		 boolean campoCompleto = false;
 		 boolean cidadeCompleto = false;

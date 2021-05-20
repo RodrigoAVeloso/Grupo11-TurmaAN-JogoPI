@@ -71,7 +71,9 @@ public class Cidade {
 		System.out.println("3 - " + lista.get(2));
 		System.out.println("4 - " + lista.get(3));
 		
-		opcao = entrada.next();
+		System.out.print("Opção: ");
+		opcao = entrada.nextLine();
+		
 		int opcaoConvert = Integer.parseInt(opcao) - 1;
 		
 		switch (opcao) {
@@ -88,8 +90,8 @@ public class Cidade {
 			valorPergunta1(opcaoConvert, lista);
 			break;				
 		default:
-			System.out.println("Opção inválida!\r\n"
-					+ "Digite uma opção valida: \n");							
+			System.err.println("Opção inválida!\r\n"
+					+ "Digite uma opção valida! \n");							
 		}
 		return this.opcao;
 		
@@ -146,7 +148,9 @@ public class Cidade {
 		System.out.println("3 - " + lista.get(2));
 		System.out.println("4 - " + lista.get(3));
 		
-		opcao = entrada.next();
+		System.out.print("Opção: ");
+		opcao = entrada.nextLine();
+		
 		int opcaoConvert = Integer.parseInt(opcao) - 1;
 		
 		switch (opcao) {
@@ -163,8 +167,8 @@ public class Cidade {
 			valorPergunta2(opcaoConvert, lista);
 			break;				
 		default:
-			System.out.println("Opção inválida!\r\n"
-					+ "Digite uma opção valida: \n");	
+			System.err.println("Opção inválida!\r\n"
+					+ "Digite uma opção valida! \n");							
 		}
 		
 		return this.opcao;
@@ -223,7 +227,9 @@ public class Cidade {
 		System.out.println("3 - " + lista.get(2));
 		System.out.println("4 - " + lista.get(3));
 		
-		opcao = entrada.next();
+		System.out.print("Opção: ");
+		opcao = entrada.nextLine();
+		
 		int opcaoConvert = Integer.parseInt(opcao) - 1;
 		
 		switch (opcao) {
@@ -240,8 +246,8 @@ public class Cidade {
 			valorPergunta3(opcaoConvert, lista);
 			break;			
 		default:
-			System.out.println("Opção inválida!\r\n"
-					+ "Digite uma opção valida: \n");		
+			System.err.println("Opção inválida!\r\n"
+					+ "Digite uma opção valida! \n");		
 		}
 		
 		return this.opcao;

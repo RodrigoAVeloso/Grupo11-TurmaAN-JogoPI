@@ -14,6 +14,7 @@ public class Fim {
 	String nPet;
 
 	public void fim() {
+		Main main = new Main();
 		Intro intro = new Intro();
 		Mapa mapa = new Mapa();
 		reputacao = mapa.reputacaoRetorno(); 
@@ -194,19 +195,19 @@ public class Fim {
 
 			System.out.println("Você não está apto para governar um reino, sua cabeça foi cortada e queimada em praça pública.\n" + intro.nPetNome() +
 					" foi solto para voltar a viver livremente. Obrigado por jogar. :)");
-
+			//main.main(null);
 			
 		} else if (reputacao > 50 && reputacao <= 75) {
 			
 			System.out.println("Sua jornada foi concluída aventureiro, Takeolândia ainda passa por algumas dificuldades, mas sobrevive.\n" + 
 					"Você e " + intro.nPetNome() + " foram convidados para se retirar da administração do Reino. Obrigado por jogar.");
-
+			//main.main(null);
 			
 		} else if (reputacao > 75) {
 			
 			System.out.println("Takeolândia continua a crescer," + intro.nPersonagemNome() + "tem herdeiros com Sofia e vivem uma vida tranquila,\n" + nPet + 
 					" envelhece e é aposentado se tornando a mascote oficial do Reino. Obrigado por jogar.\n");
-
+			//main.main(null);
 	
 		}
 		
