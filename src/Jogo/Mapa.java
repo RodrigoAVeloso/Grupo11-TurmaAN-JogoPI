@@ -18,6 +18,21 @@ public class Mapa {
 		 boolean cidadeCompleto = false;
 		 boolean guildaCompleto = false;
 		
+			int repCampo = campo.reputacaoRetorno();
+			System.out.println("\n campo ->"+repCampo + "<- \n");
+			
+			int repCidade = cidade.reputacaoRetorno();
+			System.out.println("\n cidade->"+repCidade+ "<- \n");
+
+			
+			int repGuilda = guilda.reputacaoRetorno();
+			System.out.println("\n guilda->"+repGuilda + "<- \n");
+			
+			
+			reputacao = repCampo + repGuilda + repCidade;
+			System.out.println("\n reputação total: ->"+ reputacao +"<- \n");
+
+		 
 		// Escrevendo aqui o sisteminha para ir para diferentes áreas, para já deixar
 		// aqui
 		
@@ -25,17 +40,7 @@ public class Mapa {
 			System.out.println("Você vai pro fim do jogo, responder a pergunta final e tudo mais.\r\n");
 			fim.fim();
 		}
-		
-		
-		int repCampo = campo.reputacaoRetorno();
-		System.out.println("\n campo ->"+repCampo + "<- \n");
-		int repGuilda = guilda.reputacaoRetorno();
-		System.out.println("\n guilda->"+repGuilda + "<- \n");
-		int repCidade = cidade.reputacaoRetorno();
-		System.out.println("\n cidade->"+repCidade+ "<- \n");
-		reputacao = repCampo + repGuilda + repCidade;
-		System.out.println("\n reputação total: ->"+ reputacao +"<- \n");
-		
+				
 		String opcao = "";
 		do {
 		System.out.println("Escolha a área do Reino que deseja ir:\r\n");

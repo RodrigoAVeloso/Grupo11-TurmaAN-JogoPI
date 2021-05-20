@@ -15,6 +15,11 @@ public class Fim {
 
 	public void fim() {
 		
+		Mapa mapa = new Mapa();
+		reputacao = mapa.reputacaoRetorno(); 
+		
+		System.out.println("\n Reputacão Total ->" + reputacao + "<- \n");
+		
 		System.out.println("Ao final do dia, as pessoas observam um estranho objeto pairando sobre o reino, era enorme e quase tão grande quanto o temido Dà-grão. \n"
 				+ "Ao se aproximarem viram que realmente se tratava de um novo dragão, de primeiro momento ele parecia pacifico, \n"
 				+ "já que exigiu que o líder viesse até ele para haver um diálogo entre ambos.\r\n"); 
