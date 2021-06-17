@@ -18,14 +18,17 @@ public class Cidade {
 		mapa = new Mapa();
 		
 	if (cidadeCompleto == true) {
-		System.out.println("Vocáº½ jÃ¡ resolveu todos os problemas daqui!\r\n");
+		System.out.print("Vocẽ já resolveu todos os problemas daqui!\r\n");
+		System.out.println("Aperte 'ENTER' para continuar...");
+		entrada.nextLine();
+
 		mapa.mapa();
 	}
 	
 	//String opcao = "";
 	
 	//Pergunta 1
-	System.out.println("VocÃª estÃ¡ na cidade.\r\n");
+	System.out.println("Você está na Cidade\n");
 	do {
 		
 		this.primeiraPergunta();
@@ -177,15 +180,13 @@ public class Cidade {
 	
 	public static void valorPergunta2(int param, List<String> lista) {
 		
-		if (lista.get(param).equals("Ensinar os cidadãos como fazer a coleta e o descarte de lixo da forma "
-				+"correta e a como manter os equipamentos limpos e funcionais.")) {
+		if (lista.get(param).equals("Ensinar os cidadãos como fazer a coleta e o descarte de lixo da forma correta e a como manter os equipamentos limpos e funcionais.")) {
 			System.out.println("* Os cidadãos são ensinados a como fazer a limpeza de seus recursos, \ne como descartar seu lixo de forma certa. " 
 					+ "Isso fez com que a cidade volte a ser bem falada ao redor do reino. *\n");
 			System.out.println("Aperte 'ENTER' para continuar...");
 			entrada.nextLine();
 			reputacao = reputacao + 10;
-		} else if (lista.get(param).equals("Contratar funcionários para serem responsáveis pela limpeza do reino e dos\n"
-				+"equipamentos dos cidadãos.")) {
+		} else if (lista.get(param).equals("Contratar funcionários para serem responsáveis pela limpeza do reino e dos equipamentos dos cidadãos.")) {
 			System.out.println("* Recursos foram gastos para a contratação de pessoas responsáveis somente pela limpeza. *\n");
 			System.out.println("Aperte 'ENTER' para continuar...");
 			entrada.nextLine();
@@ -195,8 +196,7 @@ public class Cidade {
 			System.out.println("Aperte 'ENTER' para continuar...");
 			entrada.nextLine();
 			reputacao = reputacao + 0;
-		} else if (lista.get(param).equals("Multar os cidadãos que sujam a cidade e deixam seus equipamentos numa má\n"
-				+ "condição de uso.")) {
+		} else if (lista.get(param).equals("Multar os cidadãos que sujam a cidade e deixam seus equipamentos numa má condição de uso.")) {
 			System.out.println("* Com o intuito de acabar com a virose, todos os portadores da doença são executados. *\r\n");
 			System.out.println("Aperte 'ENTER' para continuar...");
 			entrada.nextLine();
@@ -255,7 +255,7 @@ public class Cidade {
 
 	public static void valorPergunta3(int param, List<String> lista) {
 		
-		if (lista.get(param).equals("Tentar acalmar os cidadãos ensinando sobre a virose em questão. ")) {
+		if (lista.get(param).equals("Tentar acalmar os cidadãos ensinando sobre a virose em questão.")) {
 			System.out.println("* A população foi instruída sobre as peculiaridades da doença, e as formas de prevenção. *\n");
 			System.out.println("Aperte 'ENTER' para continuar...");
 			entrada.nextLine();
@@ -270,7 +270,7 @@ public class Cidade {
 			System.out.println("Aperte 'ENTER' para continuar...");
 			entrada.nextLine();
 			reputacao = reputacao + 5;
-		} else if (lista.get(param).equals("Erradicar a virose do reino matando os doentes.\n")) {
+		} else if (lista.get(param).equals("Erradicar a virose do reino matando os doentes.")) {
 			System.out.println("* Com o intuito de acabar com a virose, todos os portadores da doença são executados. *\r\n");
 			System.out.println("Aperte 'ENTER' para continuar...");
 			entrada.nextLine();

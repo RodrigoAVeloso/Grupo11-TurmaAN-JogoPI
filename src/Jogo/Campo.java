@@ -18,10 +18,11 @@ public class Campo {
 		
 			Mapa mapa = new Mapa();
 
-			// Depois dar uma ajeitada aqui, colocado apenas para teste 2
-
 			if (campoCompletoRetorno() == true) {
 				System.out.println("Vocẽ já resolveu todos os problemas daqui!\r\n");
+				System.out.println("Aperte 'ENTER' para continuar...");
+				entrada.nextLine();
+
 				mapa.mapa();
 			}
 
@@ -115,8 +116,8 @@ public class Campo {
 	} 
 	
 	private static void valorPergunta1(int param, List<String> lista) {
-
-		if (lista.get(param).equals("Deixar da forma que está. ")) {
+		
+		if (lista.get(param).equals("Deixar da forma que está.")) {
 			System.out.println("* O Rei acha que existem problemas mais importantes *\n");
 			System.out.println("Aperte 'ENTER' para continuar...\n");
 			entrada.nextLine();
@@ -154,7 +155,7 @@ public class Campo {
 
 		System.out.print("* O que você deseja fazer a respeito? *\r\n");
 
-		List<String> lista = Arrays.asList("Comprar comida de reinos vizinhos. ",
+		List<String> lista = Arrays.asList("Comprar comida de reinos vizinhos.",
 				"Contratar novos agricultores treinados de terras vizinhas.",
 				"Acabar com o plantio do reino e investir em outras formas alimentícias.",
 				"Treinar camponeses entre os novos colonos para o serviço desejado.");
@@ -195,7 +196,8 @@ public class Campo {
 	}
 	
 	public static void valorPegunta2(int param, List<String> lista) {
-		if (lista.get(param).equals("Comprar comida de reinos vizinhos. ")) {
+		
+		if (lista.get(param).equals("Comprar comida de reinos vizinhos.")) {
 			System.out.println("* Recursos foram gastos para tentar resolver o problema da comida. *\n");
 			System.out.println("Aperte 'ENTER' para continuar...\n");
 			entrada.nextLine();

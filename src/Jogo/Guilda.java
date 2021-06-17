@@ -21,10 +21,13 @@ public class Guilda {
 		
 		if (guildaCompletoRetorno() == true) {
 			System.out.println("Você já resolveu todos os problemas daqui!\r\n");
+			System.out.println("Aperte 'ENTER' para continuar...");
+			entrada.nextLine();
+
 			mapa.mapa();
 		}
 		
-		System.out.println("Intro da guilda aqui!");
+		System.out.println("Você está na guilda.\r\n");	
 
 		System.out.println("Aperte 'ENTER' para continuar...");
 		entrada.nextLine();

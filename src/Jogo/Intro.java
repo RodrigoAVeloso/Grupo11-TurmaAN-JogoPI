@@ -71,7 +71,8 @@ public class Intro {
 						+ "aos antepassados do Rei, mas foi derrotado e desde então a paz reina em Takeolândia. Coma o despertar do dragão o \r\n"
 						+ "terror se instalou e não havia como o Rei fazer algo porque já era velho e seu poder militar era precário, então \r\n"
 						+ "o rei faz a seguinte proposta para " + nPersonagem + ":\r\n");
-
+		
+		entrada.nextLine();
 		System.out.println("Aperte 'ENTER' para continuar...");
 		entrada.nextLine();
 
